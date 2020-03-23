@@ -17,7 +17,7 @@ public class DeleteStudentRecord {
 			stmt.setInt(1, 4);
 			stmt.executeUpdate();
 			System.out.println("Record Removed successfully !!!");
-
+			System.out.println();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
