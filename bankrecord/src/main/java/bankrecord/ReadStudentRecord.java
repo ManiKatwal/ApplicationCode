@@ -15,7 +15,7 @@ public class ReadStudentRecord {
 				PreparedStatement stmt = connect.prepareStatement(SELECT_ALL_SQL);
 				ResultSet result = stmt.executeQuery()) {
 
-			System.out.println("Connection Established !!!");
+			System.out.println("Connection Connected !!!");
 
 			while (result.next()) {
 				Integer studentID = result.getInt("studentID");
